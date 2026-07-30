@@ -6,7 +6,7 @@ A personal AI operating system built by Udyat.
 
 - Personal AI assistant
 - Coding mentor
-- CMA US study planner
+- study planner
 - Finance mentor
 - Career coach
 - Voice assistant
