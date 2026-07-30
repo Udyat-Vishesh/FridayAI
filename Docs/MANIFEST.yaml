@@ -1,0 +1,98 @@
+# ==================================================
+# FRIDAY Project Manifest
+# Machine-readable project metadata
+# ==================================================
+
+manifest:
+  schema_version: 1
+  created: "2026-07-30"
+  updated: "2026-07-30"
+
+project:
+  name: FRIDAY
+  codename: Genesis
+  version: 0.1.0
+  stage: Foundation
+  description: Modular Intelligence Platform
+
+repository:
+  owner: Udyat-Vishesh
+  default_branch: main
+
+platform:
+  language: Python
+  runtime: Local
+  supported_os:
+    - Windows
+    - Linux
+
+llm:
+  provider: Ollama
+  default:
+    model: qwen3:8b
+
+modules:
+
+  brain:
+    id: friday.brain
+    version: 0.1.0
+    path: Brain/
+
+  memory:
+    id: friday.memory
+    version: 0.1.0
+    path: Memory/
+
+  knowledge:
+    id: friday.knowledge
+    version: 0.1.0
+    path: Knowledge/
+
+  voice:
+    id: friday.voice
+    version: 0.1.0
+    path: Voice/
+
+  vision:
+    id: friday.vision
+    version: 0.1.0
+    path: Vision/
+
+  skills:
+    id: friday.skills
+    version: 0.1.0
+    path: Skills/
+
+paths:
+  docs: Docs/
+  brain: Brain/
+  memory: Memory/
+  knowledge: Knowledge/
+  voice: Voice/
+  vision: Vision/
+  skills: Skills/
+  projects: Projects/
+  prompts: Prompts/
+  config: Config/
+  logs: Logs/
+  backups: Backups/
+  installers: Installers/
+
+documents:
+  readme: Docs/README.md
+  philosophy: Docs/PHILOSOPHY.md
+  constitution: Docs/CONSTITUTION.md
+  changelog: Docs/CHANGELOG.md
+
+principles:
+  - Local First
+  - Transparency
+  - Reliability
+  - Modularity
+  - User Control
+  - Continuous Learning
+
+metadata:
+  license: Private
+  maturity: Pre-Alpha
+  status: Active Development
