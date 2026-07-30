@@ -1,0 +1,34 @@
+# =========================
+# FRIDAY Runtime
+# =========================
+
+# Downloaded AI models
+Brain/Models/
+
+# Runtime cache
+Brain/Cache/
+
+# Runtime logs
+Logs/
+
+# Runtime databases
+Memory/Database/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Environment variables
+.env
+.env.*
+
+# IDE
+.vscode/
+.cursor/
+
+# OS
+Thumbs.db
+Desktop.ini
+.DS_Store
