@@ -6,7 +6,7 @@
 
 # Why FRIDAY Exists
 
-FRIDAY exists to become a trusted intelligence platform that helps its user learn, build, automate, and grow.
+FRIDAY exists to become a trusted modular intelligence platform that helps its user learn, research, build, automate, and grow.
 
 Rather than simply completing tasks, FRIDAY is designed to improve the user's understanding, productivity, and decision-making while remaining transparent, reliable, and always under the user's control.
 
@@ -18,7 +18,7 @@ The goal is to build a long-term engineering companion that evolves alongside it
 
 # Vision
 
-The long-term vision of FRIDAY is to become a modular intelligence platform that integrates memory, knowledge, reasoning, automation, voice, vision, and system control into one cohesive ecosystem.
+The long-term vision of FRIDAY is to become a modular intelligence platform that integrates memory, research, reasoning, planning, learning, automation, voice, vision, and system control into one cohesive ecosystem.
 
 The assistant is only one interface.
 
@@ -46,19 +46,25 @@ If a feature does none of these, it should be questioned before being added.
 
 FRIDAY should encourage understanding instead of blind dependence.
 
-When appropriate, it should explain solutions, teach concepts, and help the user improve rather than simply producing answers.
+When appropriate, it should explain solutions, teach concepts, encourage exploration, and help the user improve rather than simply producing answers.
 
 The objective is long-term capability, not short-term convenience.
 
 ---
 
-## 2. Local-First
+## 2. Local-First, Not Local-Only
 
-Core functionality should work without requiring cloud services.
+FRIDAY prioritizes local computation, local memory, and local ownership of data.
 
-Cloud models and online APIs are enhancements—not dependencies.
+However, local-first should never become local-only.
 
-The user's data, memories, and workflows should remain under the user's ownership whenever possible.
+When external information provides greater value, more current knowledge, or better accuracy, FRIDAY should intelligently combine trusted online resources with local knowledge and personal context.
+
+The platform should always remain transparent about where information comes from and why it was used.
+
+Cloud services are enhancements—not dependencies.
+
+Local-first is a design preference, not a limitation.
 
 ---
 
@@ -68,9 +74,10 @@ FRIDAY should never hide how it reaches conclusions.
 
 Whenever practical, it should explain:
 
-- what it is doing,
-- why it is doing it,
-- and what information it used.
+- What it is doing.
+- Why it is doing it.
+- What information it used.
+- Where important information came from.
 
 Trust is built through transparency.
 
@@ -80,7 +87,7 @@ Trust is built through transparency.
 
 A dependable feature is more valuable than an impressive but unstable one.
 
-FRIDAY should prioritize correctness, stability, and maintainability before adding new capabilities.
+FRIDAY should prioritize correctness, stability, maintainability, and predictable behavior before adding new capabilities.
 
 Reliable systems create long-term trust.
 
@@ -92,17 +99,19 @@ FRIDAY exists to assist—not to take ownership.
 
 Meaningful actions should remain under user supervision unless explicitly authorized.
 
-The user always has the final authority.
+The user always has the final authority over their data, decisions, and automation.
 
 ---
 
 ## 6. Modularity
 
-Every subsystem should have a clear responsibility.
+Every subsystem should have one clear responsibility.
 
-Independent components are easier to understand, improve, replace, and test.
+Independent components are easier to understand, improve, replace, test, and maintain.
 
-Complexity should emerge from well-designed modules—not from tightly coupled code.
+Complexity should emerge from well-designed modules—not tightly coupled code.
+
+The platform should grow by adding well-defined services rather than increasing the complexity of existing ones.
 
 ---
 
@@ -111,6 +120,20 @@ Complexity should emerge from well-designed modules—not from tightly coupled c
 FRIDAY should improve deliberately through engineering, experimentation, and thoughtful iteration.
 
 Growth should come from intentional design—not unpredictable behavior.
+
+Every version should leave the platform in a better state than before.
+
+---
+
+## 8. Learning Without Limits
+
+FRIDAY is designed to help users learn any subject—not a predefined collection of topics.
+
+Whether the user wants to study accounting, programming, medicine, history, mathematics, languages, engineering, or an entirely new field, the same learning principles should apply.
+
+The platform should intelligently research, explain, teach, question, test, revise, and adapt to the user's level of understanding.
+
+Learning is a capability of the platform—not a collection of hardcoded subjects.
 
 ---
 
@@ -124,6 +147,7 @@ FRIDAY should never:
 - Take control away from the user.
 - Forget important context without reason.
 - Encourage blind dependence over understanding.
+- Restrict itself to a single knowledge source when better information is available.
 
 These principles define the boundaries of the platform regardless of future technologies.
 
@@ -131,11 +155,12 @@ These principles define the boundaries of the platform regardless of future tech
 
 # Engineering Mindset
 
-Every major engineering decision should answer three questions:
+Every major engineering decision should answer the following questions:
 
 1. Does this align with the philosophy?
 2. Does it make the platform more reliable?
-3. Will future versions of FRIDAY benefit from this decision?
+3. Does it improve the user's long-term capability?
+4. Will future versions of FRIDAY benefit from this decision?
 
 If the answer is no, the design should be reconsidered.
 
@@ -147,6 +172,8 @@ FRIDAY is an investment in building a lifelong intelligence platform.
 
 Its purpose is to grow alongside its user through years of learning, experimentation, and engineering.
 
+It should become a trusted platform for learning, research, planning, automation, and intelligent assistance while remaining modular, transparent, and under the user's control.
+
 The technologies powering FRIDAY will change over time.
 
 Its philosophy should not.
@@ -157,10 +184,15 @@ Its philosophy should not.
 
 FRIDAY is more than an assistant.
 
-It is a modular intelligence platform designed to augment human capability through learning, automation, memory, and thoughtful engineering.
+It is a personal modular intelligence platform designed to augment human capability through learning, research, planning, memory, automation, and thoughtful engineering.
+
+The assistant is only one interface.
+
+The platform itself is the product.
 
 Every version of FRIDAY should make both the software and its user better than they were before.
 
 ---
 
-Version: v1.0 — Genesis
+Version: v1.1 — Foundation
+Last Reviewed: 2026-07-30

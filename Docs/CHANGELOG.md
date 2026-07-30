@@ -8,11 +8,21 @@ The format is inspired by **Keep a Changelog**, and the project aims to follow S
 
 ## [Unreleased]
 
+### Changed
+
+- Refined FRIDAY from an AI assistant into a personal modular intelligence platform.
+- Expanded the philosophy to support learning any subject rather than domain-specific use cases.
+- Clarified the Local-First philosophy to support intelligent use of trusted external resources.
+- Strengthened the engineering constitution with architectural integrity and documentation consistency principles.
+
 ### Planned
 
-- Continue project foundation documentation.
-- Design the system architecture.
-- Begin implementation of the FRIDAY kernel.
+- Design the overall system architecture.
+- Define the core platform components.
+- Document component responsibilities and boundaries.
+- Design the data flow between components.
+- Design the boot process.
+- Begin implementation after architectural approval.
 
 ---
 
@@ -25,9 +35,17 @@ The format is inspired by **Keep a Changelog**, and the project aims to follow S
 - `README.md`
 - `PHILOSOPHY.md`
 - `CONSTITUTION.md`
+- `CHANGELOG.md`
+- `MANIFEST.yaml`
 
 ### Notes
 
-This release establishes the identity and guiding principles of FRIDAY.
+This release establishes the identity, philosophy, and engineering principles of FRIDAY.
 
-No implementation has been completed yet. This version represents the project's foundational documentation and engineering direction.
+No implementation has been completed yet.
+
+This version represents the project's foundational documentation and engineering direction.
+
+---
+
+Version: v1.1 — Foundation
